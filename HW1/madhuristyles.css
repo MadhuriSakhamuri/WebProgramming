@@ -1,0 +1,67 @@
+body{
+    background-image: url("bgpic.jpg");
+}
+
+.DP{
+    height: 50%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Description{
+    position: absolute;
+    left: 625px;
+    right: 100px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+}
+.name{
+    position: absolute;
+    left: 550px;
+    right: 1500px;
+    bottom: 2px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    background-color: brown;
+}
+.picture{
+    position: relative;
+}
+tr:nth-child(even){
+background-color: gray;
+}
+tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+.projects{
+    width: 50%;
+    height: 12%;
+    text-align: center;
+    left:50%;
+    right:40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    margin-left: 20px;
+    padding: 15px;
+}
+.quote{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 50px;
+    text-decoration: white;
+    height:350px;
+    width: 100%;
+    color: white;
+    text-align:center;
+    padding-top: 70px;
+}
+a:hover{
+    background-color: cadetblue;
+}
